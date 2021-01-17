@@ -1,0 +1,31 @@
+--ÖNCEKİ DERSLERDE EXCEL DEN OLUŞTURALAN VERİ TABANI 
+--KOPYALA YAPIŞTIR YÖNTEMİ İLE AKTARIMIŞTI.
+
+--ŞİMDİ ETRADE SİLDİK VE ETRADE2.BAK DOSYASI ARACILIĞI İLE 
+--VERİ TABANINI TEKRARDAN OLUŞTURDUK.
+
+--ETRADE2.BAK DOSYASINDA TABLOLARIN İÇİ DOLUDUR.
+
+--INVAOICE VE INVOICEDETAIL TABLOLARI BPŞ.
+
+--DISTRICT_STREET TABLOSU TÜM MAHALLE ADRESLERİNİ İÇEREN BÜYÜK BİR VERİ TABANIDIR.
+--BUNUN SAYESİNDE RASTGELE ADRESLER OLUŞTURACAĞIZ.
+
+--PasswordList internetten bulunan bir şifre listesidir.
+--Kullanıcılara rastgele şifreler atayacağı.
+
+--Payment boş.
+
+--USER_ 10.000 satırlık veri.
+
+--Kullanıcılar için birden fazla adres oluşturulmuştur.
+
+SELECT COUNT(*)
+FROM [dbo].[ADDRES]
+
+--24945 --> TOPLAMDA BU KADAR ADRES MEVCUT.
+
+
+
+
+
