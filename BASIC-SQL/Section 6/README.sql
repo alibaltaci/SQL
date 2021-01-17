@@ -1,0 +1,31 @@
+--ÖNCEKÝ DERSLERDE EXCEL DEN OLUÞTURALAN VERÝ TABANI 
+--KOPYALA YAPIÞTIR YÖNTEMÝ ÝLE AKTARIMIÞTI.
+
+--ÞÝMDÝ ETRADE SÝLDÝK VE ETRADE2.BAK DOSYASI ARACILIÐI ÝLE 
+--VERÝ TABANINI TEKRARDAN OLUÞTURDUK.
+
+--ETRADE2.BAK DOSYASINDA TABLOLARIN ÝÇÝ DOLUDUR.
+
+--INVAOICE VE INVOICEDETAIL TABLOLARI BPÞ.
+
+--DISTRICT_STREET TABLOSU TÜM MAHALLE ADRESLERÝNÝ ÝÇEREN BÜYÜK BÝR VERÝ TABANIDIR.
+--BUNUN SAYESÝNDE RASTGELE ADRESLER OLUÞTURACAÐIZ.
+
+--PasswordList internetten bulunan bir þifre listesidir.
+--Kullanýcýlara rastgele þifreler atayacaðý.
+
+--Payment boþ.
+
+--USER_ 10.000 satýrlýk veri.
+
+--Kullanýcýlar için birden fazla adres oluþturulmuþtur.
+
+SELECT COUNT(*)
+FROM [dbo].[ADDRES]
+
+--24945 --> TOPLAMDA BU KADAR ADRES MEVCUT.
+
+
+
+
+
